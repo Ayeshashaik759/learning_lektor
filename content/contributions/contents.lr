@@ -4,7 +4,16 @@ title: contributions
 ---
 body:
 
-sdnkwwfjlkflsmc,sd
+* changing bootstrap tour ui in the sugarizer website[codelink](https://github.com/llaske/sugarizer/pull/1110)
+    * see the changes at [link](https://try.sugarizer.org/)
+
+* Adding Score feature to the fraction game in the sugarizer website[code link](https://github.com/llaske/sugarizer/pull/1185)
+    * Try this feature at [link](https://try.sugarizer.org/)
+
+* Fixing the bug regarding scrollbar [github repo link](https://github.com/llaske/sugarizer/pull/1184)
+    * see the changes at [link](https://try.sugarizer.org/)
 
 ---
 _template: page.html
+---
+description: hello everyone these are my contributions
