@@ -3,11 +3,8 @@
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 <title>{% block title %}Welcome{% endblock %} — learning_lektor</title>
 <body>
-  {% block navbar %}
-  {% include 'navbar.html' %}
-  {% endblock %}
   <header>
-    <h1>learning_lektor</h1>
+    <h1><b>My_portfolio</b></h1>
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
@@ -15,7 +12,8 @@
         {% for href, title in [
           ['/blog', 'Blog'],
           ['/projects', 'Projects'],
-          ['/about', 'About']
+          ['/about', 'About'],
+          ['/contributions','Contributions']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
